@@ -1,0 +1,32 @@
+void setup() {
+pinMode(2,OUTPUT);
+}
+
+void loop() {
+  // This is the S or the short beeps
+digitalWrite(2,HIGH);
+delay(100);
+digitalWrite(2,LOW);
+delay(100);
+digitalWrite(2,HIGH);
+delay(100);
+digitalWrite(2,LOW);
+delay(100);
+digitalWrite(2,HIGH);
+delay(100);
+digitalWrite(2,LOW);
+delay(650);
+// The O or long beeps
+digitalWrite(2,HIGH);
+delay(500);
+digitalWrite(2,LOW);
+delay(500);
+digitalWrite(2,HIGH);
+delay(500);
+digitalWrite(2,LOW);
+delay(500);
+digitalWrite(2,HIGH);
+delay(500);
+digitalWrite(2,LOW);
+delay(500);
+}
