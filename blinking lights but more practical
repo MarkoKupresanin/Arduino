@@ -1,0 +1,94 @@
+int YellowLED=3;
+int BlueLED=4;
+int GreenLED=5;
+int RedLED=10;
+int YellowDelay=250;
+int BlueDelay=850;
+int GreenDelay=550;
+int RedDelay=350;
+
+
+
+void setup() {
+pinMode(YellowLED,OUTPUT);
+pinMode(GreenLED,OUTPUT);
+pinMode(BlueLED,OUTPUT);
+pinMode(RedLED,OUTPUT);
+
+}
+
+void loop() {
+digitalWrite(RedLED,HIGH);
+delay(RedDelay);
+digitalWrite(RedLED,LOW);
+delay(RedDelay);
+digitalWrite(RedLED,HIGH);
+delay(RedDelay);
+digitalWrite(RedLED,LOW);
+delay(RedDelay);
+digitalWrite(RedLED,HIGH);
+delay(RedDelay);
+digitalWrite(RedLED,LOW);
+delay(RedDelay);
+digitalWrite(YellowLED,HIGH);
+delay(YellowDelay);
+digitalWrite(YellowLED,LOW);
+delay(YellowDelay);
+digitalWrite(YellowLED,HIGH);
+delay(YellowDelay);
+digitalWrite(YellowLED,LOW);
+delay(YellowDelay);
+digitalWrite(YellowLED,HIGH);
+delay(YellowDelay);
+digitalWrite(YellowLED,LOW);
+delay(YellowDelay);
+digitalWrite(YellowLED,HIGH);
+delay(YellowDelay);
+digitalWrite(YellowLED,LOW);
+delay(YellowDelay);
+digitalWrite(GreenLED,HIGH);
+delay(GreenDelay);
+digitalWrite(GreenLED,LOW);
+delay(GreenDelay);
+digitalWrite(GreenLED,HIGH);
+delay(GreenDelay);
+digitalWrite(GreenLED,LOW);
+delay(GreenDelay);
+digitalWrite(GreenLED,HIGH);
+delay(GreenDelay);
+digitalWrite(GreenLED,LOW);
+delay(GreenDelay);
+digitalWrite(GreenLED,HIGH);
+delay(GreenDelay);
+digitalWrite(GreenLED,LOW);
+delay(GreenDelay);
+digitalWrite(GreenLED,HIGH);
+delay(GreenDelay);
+digitalWrite(GreenLED,LOW);
+delay(GreenDelay);
+digitalWrite(GreenLED,HIGH);
+delay(GreenDelay);
+digitalWrite(GreenLED,LOW);
+delay(GreenDelay);
+digitalWrite(GreenLED,HIGH);
+delay(GreenDelay);
+digitalWrite(GreenLED,LOW);
+delay(GreenDelay);
+digitalWrite(BlueLED,HIGH);
+delay(BlueDelay);
+digitalWrite(BlueLED,LOW);
+delay(BlueDelay);
+digitalWrite(BlueLED,HIGH);
+delay(BlueDelay);
+digitalWrite(BlueLED,LOW);
+delay(BlueDelay);
+digitalWrite(BlueLED,HIGH);
+delay(BlueDelay);
+digitalWrite(BlueLED,LOW);
+delay(BlueDelay);
+digitalWrite(BlueLED,HIGH);
+delay(BlueDelay);
+digitalWrite(BlueLED,LOW);
+delay(BlueDelay);
+
+}
